@@ -16,7 +16,7 @@ if DEVICE_FLAG == "mps":
 elif DEVICE_FLAG == "cpu":
     DEVICE_TYPE = "cpu"
 else:
-    DEVICE_FLAG = "cpu"
+    DEVICE_TYPE = "cpu"
     print(f"device {DEVICE_FLAG} not found. Reverting to cpu...")
 
 
